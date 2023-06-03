@@ -1,12 +1,5 @@
-//! # 排序算法
-//!
-//! 该项目为切片类型实现了下列排序算法：
-//!
-//! * 冒泡排序
-//! * 选择排序
-//! * 插入排序
-//! * 快速排序
-//!
+#![doc = include_str!("../README.md")]
+#![deny(unsafe_code, missing_docs, clippy::unwrap_used)]
 
 /// # 冒泡排序
 ///
