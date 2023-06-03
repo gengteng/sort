@@ -168,7 +168,7 @@ pub(crate) mod tests {
     #[test]
     fn std_sort() {
         // 使用标准库的排序函数，测试测试函数是否正确
-        sort::<u8>(|array| array.sort(), 100);
+        sort::<u8>(<[_]>::sort, 100);
     }
 
     #[test]
